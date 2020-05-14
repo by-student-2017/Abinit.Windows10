@@ -1,0 +1,7 @@
+./configure --build=x86_64-pc-cygwin --enable-openmp --enable-parallel=no BLAS_LIBS="-lblas" LAPACK_LIBS="-llapack -lblas" FFT_LIBS="-lfftw3 -lfftw3_omp"
+
+make pwall tddfpt gwl ld1 xspectra epw
+
+make install
+
+cygcheck /usr/local/bin/pw.x
