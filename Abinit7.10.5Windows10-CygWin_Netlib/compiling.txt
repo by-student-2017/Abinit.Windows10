@@ -1,7 +1,0 @@
-./configure --build=x86_64-pc-cygwin --enable-64bit-flags --enable-openmp FC_LIBS="-llapack -lblas -lfftw3"
-
-make
-
-make install
-
-cygcheck /usr/local/bin/abinit.exe
