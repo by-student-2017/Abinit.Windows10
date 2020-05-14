@@ -1,1 +1,1 @@
-# Abinit.Windows10
+# PWscf.Windows10
