@@ -11,7 +11,7 @@ set OMP_NUM_THREADS=(number of core)
 set OMP_NUM_THREADS=4
 
 
------
+------------------------------------------------------------------------------
 
 
 PWscf(Quantum Espresso)
